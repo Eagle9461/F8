@@ -1,0 +1,152 @@
+.container{
+    position: relative;
+    .input:focus-visible{
+    }
+}
+.lock{
+    .input{
+        min-height: 80px;
+        width: 100%;
+        resize: none;
+        padding: 6px;
+        border: none;
+        margin: 4px;
+    }
+    .btn{
+        font-size: 12px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: var(--color-purple);
+        border-radius: 6px;
+        border: none;
+        padding: 2px 6px;
+        color: white;
+    }
+}
+.prompt{
+    margin: 10px 0 10px;
+    .input{
+        min-height: 120px;
+        width: 100%;
+        resize: none;
+        padding: 6px;
+        border: none;
+        border: 1px solid black;
+    }
+    .singleline{
+        min-height: 30px;
+        width: 100%;
+        resize: none;
+        padding: 3px;
+        border: 1px solid black;
+    }
+    .output{
+        min-height: 120px;
+        width: 100%;
+        resize: none;
+        padding: 6px;
+        border: 1px dotted black;
+    }
+    .link{
+        display: flex;
+        width: 100%;
+        padding: 4px 8px;
+        font-size: 16px;
+    }
+    .refresh{
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        bottom: 20px;
+        right: 22px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+.select::-ms-expand {
+    display: none;
+  }
+.title{
+    margin-top: 4px;
+    font-size: 18px;
+}
+.formselect{
+    width: 100%;
+    font-size: 16px;
+    padding: 4px;
+    option{
+        margin: 2px 0;
+    }
+}
+.select{
+    margin: 4px 10px;
+    width: 280px;
+    background-color: #E7D3E8;
+    border: none;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 18px;
+    .option{
+        background-color: #cc0000; 
+        font-weight: bold; 
+        font-size: 12px; 
+        color: white;
+    }
+}
+
+.body {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-right: 6px;
+    vertical-align: middle;
+    position: relative;
+    outline: none;
+}
+.label {
+    display: flex;
+    align-items: center;
+}
+.labelText {
+    font-size: 20px;
+    margin-left: 6px;
+}
+.checkedCheckbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    margin-right: 6px;
+    vertical-align: middle;
+    position: relative;
+    background-color : purple;
+    border-color : white;
+    outline: none;
+}
+.lineedit{
+    .container {
+        position: relative;
+        .tooltip {
+            position: absolute;
+            top: 30px;
+            left: 0px;
+            padding: 8px 6px;
+            background-color: #E7D3E8;
+            color: black;
+            border-radius: 6px;
+            font-size: 14px;
+            z-index: 3;
+        }
+        textarea{
+            width: 100%;
+            height: 28px;
+            padding: 4px 6px;
+            resize: none;
+            overflow: hidden;
+        }
+    }
+}

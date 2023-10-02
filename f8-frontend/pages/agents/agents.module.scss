@@ -1,0 +1,135 @@
+.step{
+    .original{
+        font-size: 36px;
+        padding: 22px 10px 8px;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    .content_title {
+        font-size: 36px;
+        padding: 0px;
+        text-decoration: underline;
+    }
+    .layout_1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+    .layout_1 .item{
+        width: 50%;
+        .cardLayout{
+            padding: 6px 12px;
+            text-align: left;
+        }
+        .title{
+            font-size: 20px;
+            text-align: left;
+        }
+        .column{
+            font-size: 16px;
+            display: block;
+            margin: 1px 4px;
+        }
+        .selected {
+            border: 1px solid var(--color-purple);
+        }
+    }
+    .title{
+        font-size: 30px;
+        margin: 10px 4px 6px 2px;
+        text-transform: uppercase;
+    }
+    .description{
+        font-size: 20px;
+        margin: 10px 4px 6px 2px;
+    }
+    .other{
+        margin: 20px 4px 10px;
+        div{
+            padding: 12px 0px ;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .oinput{
+            display: flex;
+            span{
+                width: 200px;
+            }
+            input{
+                width: 100%;
+                padding: 2px 4px;
+            }
+        }
+        .check{
+            // // color: var(--color-pink);
+            // padding: 0 12px 0 0;
+            // // appearance: none;
+            // width: 16px;
+            // height: 16px;
+            // border: 1px solid #ccc;
+            // border-radius: 3px;
+            // margin-right: 5px;
+            // // cursor: pointer;
+            // &:checked {
+            //     background-color: #007bff;
+            //     border-color: var(--color-purple);
+            //   }
+        }
+        textarea{
+            width: 100%;
+            padding: 6px;
+            height: 80px;
+        }
+
+    }
+    .frames{
+        width: 100%;
+        margin: auto;
+        *{
+            margin: 30px 0;
+        }
+        .title{
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+
+        }
+        img{
+            width: 80%;
+            height: auto;
+        }
+    }
+}
+.choice{
+    margin: 20px 60px;
+    .title{
+        font-size: 30px;
+    }
+} 
+.flex_row_center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex_col_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nobottomp {
+    margin-bottom: 0px;
+}
+.margin10p {
+    margin-bottom : 15px;
+    margin-top: 15px;
+}
+.marginleft30 {
+    margin-left : 30px;
+}
+.contentType{
+    font-size: 26px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}

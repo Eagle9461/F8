@@ -1,0 +1,37 @@
+.card {
+  border: 1px solid transparent;
+  // border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  position: relative;;
+}
+.selectioncard{
+  border: 1px solid transparent;
+  // border-radius: 5px;
+  overflow: hidden;
+  position: relative;;
+  background-color: var(--color-pink);
+  
+  background-color: var(--color-pink);
+  border-radius: 12px;
+  margin: 10px;
+  padding: 10px 0px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border-width: 3px;
+  cursor: pointer;
+}
+.selectioncard:hover{
+  box-shadow: var(--box-shadow);
+}
+.selectioncard:active{
+  border-color: var(--color-purple);
+}
+.selected.selectioncard.selectioncard{
+  border-color: var(--color-purple);
+}
+.nodecard{
+  border-radius: 10px;
+  padding:10px;
+}

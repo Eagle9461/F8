@@ -1,0 +1,4 @@
+node_modules
+.next
+f8-frontend/.env.local
+f8-frontend/.next

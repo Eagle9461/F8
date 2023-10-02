@@ -1,0 +1,85 @@
+.profile{
+    ul{
+      padding: 0 10px 0 20px;
+    }
+    li{
+      border-bottom: 1px solid rgb(170,170,170);
+      text-align: left;
+      padding-left: 4px;
+      font-size: 16px;
+      margin: 10px 0 0px 0;
+      padding: 4px;
+      display: block;
+      width: 100%;
+    }
+    li span{
+      font-size: 14px;
+    }
+    button{
+      border: 1px solid black;
+      border-radius: 18px;
+    }
+    
+  }
+  .submit{
+    z-index: 1;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+  }
+  
+.btns{
+    margin: 8px 2px 2px 2px;
+  }
+  .btnPersona {
+      margin: 2px;
+      padding: 6px 12px;
+      border: 1px solid gray;
+      border-radius: 18px;
+  }
+.personaContent{
+  width: 80%;
+  .name{
+    text-align: left;
+    margin: 0 0 0 6px;
+  }
+  .profile{
+    display: flex;
+    .avatar{
+      width: 30%;
+      height: auto;
+      border-radius: 22px;
+      padding: 6px;
+    }
+    .info{
+      padding: 6px 8px 0 0;
+      width: 100%;
+      border: 1px solid gray;
+      border-radius: 12px;
+      margin: 14px 0 0 4px;
+    }
+  }
+}
+.detail{
+  margin-top: 12px;
+  width: 100%;
+}
+.personaControl{
+  margin-top: 20px;
+  *{
+    margin: 0 60px;
+  }
+  button{
+    width: 400px;
+  }
+  @media screen and (max-width: 414px) {
+    *{
+      margin: 4px 20px;
+    }
+    button{
+      width: 130px;
+    }
+  }
+}
